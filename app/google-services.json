@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "707614189899",
+    "firebase_url": "https://ev-grama-charge-eb39e-default-rtdb.firebaseio.com",
+    "project_id": "ev-grama-charge-eb39e",
+    "storage_bucket": "ev-grama-charge-eb39e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:707614189899:android:c76f756bf2bab8d68620ce",
+        "android_client_info": {
+          "package_name": "com.example.ev_grama_charge"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-XWpJapw-ICotFgXSmCYTWIdj1RATjh0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

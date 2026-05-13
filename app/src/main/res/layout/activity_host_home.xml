@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- PROFILE HEADER -->
+
+        <LinearLayout
+            android:id="@+id/layoutProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp"
+            android:gravity="center_vertical"
+            android:background="@drawable/bg_home_header"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackground">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imageHost"
+                android:layout_width="76dp"
+                android:layout_height="76dp"
+                android:src="@drawable/ic_user"
+                app:civ_border_width="2dp"
+                app:civ_border_color="@android:color/white"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_marginStart="16dp">
+
+                <TextView
+                    android:id="@+id/tvHostName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Host Name"
+                    android:textColor="@android:color/white"
+                    android:textSize="24sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/tvShopName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Shop Name"
+                    android:textColor="#CCFFFFFF"
+                    android:textSize="14sp"
+                    android:layout_marginTop="5dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tap to view profile"
+                    android:textColor="#E3F2FD"
+                    android:textSize="12sp"
+                    android:layout_marginTop="8dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="46dp"
+                android:layout_height="46dp"
+                android:gravity="center"
+                android:background="@drawable/bg_icon_circle">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="›"
+                    android:textSize="28sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/darkText"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- ANALYTICS -->
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none"
+            android:paddingTop="14dp"
+            android:paddingBottom="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingHorizontal="14dp">
+
+                <!-- TOTAL -->
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="170dp"
+                    android:layout_height="110dp"
+                    android:layout_marginEnd="14dp"
+                    app:cardCornerRadius="22dp"
+                    app:cardElevation="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:padding="18dp"
+                        android:background="@drawable/bg_card_gradient">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Total Chargers"
+                            android:textColor="#E3F2FD"
+                            android:textSize="14sp"/>
+
+                        <TextView
+                            android:id="@+id/tvTotalChargers"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="0"
+                            android:textColor="@android:color/white"
+                            android:textSize="32sp"
+                            android:textStyle="bold"
+                            android:layout_marginTop="12dp"/>
+
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+
+                <!-- AVAILABLE -->
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="170dp"
+                    android:layout_height="110dp"
+                    android:layout_marginEnd="14dp"
+                    app:cardCornerRadius="22dp"
+                    app:cardElevation="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:padding="18dp"
+                        android:background="@drawable/bg_home_header">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Available"
+                            android:textColor="#E3F2FD"
+                            android:textSize="14sp"/>
+
+                        <TextView
+                            android:id="@+id/tvAvailableChargers"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="0"
+                            android:textColor="@android:color/white"
+                            android:textSize="32sp"
+                            android:textStyle="bold"
+                            android:layout_marginTop="12dp"/>
+
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+
+                <!-- REVENUE -->
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="190dp"
+                    android:layout_height="110dp"
+                    app:cardCornerRadius="22dp"
+                    app:cardElevation="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:padding="18dp"
+                        android:background="@drawable/bg_icon_circle">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Estimated Revenue"
+                            android:textColor="@color/darkText"
+                            android:textSize="14sp"/>
+
+                        <TextView
+                            android:id="@+id/tvRevenue"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="₹0"
+                            android:textColor="@color/darkText"
+                            android:textSize="28sp"
+                            android:textStyle="bold"
+                            android:layout_marginTop="12dp"/>
+
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+        <!-- MAIN CONTENT -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnAddCharger"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:text="Add New Charger"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:cornerRadius="18dp"
+                app:backgroundTint="@color/primaryGreen"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnWallet"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:text="Wallet &amp; Earnings"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_marginTop="14dp"
+                app:backgroundTint="@color/primaryGreen"
+                app:cornerRadius="18dp"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/cardBookings"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:layout_marginTop="14dp"
+                android:text="Booking Requests"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                app:backgroundTint="@color/primaryBlue"
+                app:cornerRadius="18dp"
+                app:icon="@drawable/ic_booking"
+                app:iconGravity="textStart"
+                app:iconPadding="12dp"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnAvailability"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:text="Availability Settings"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_marginTop="14dp"
+                app:backgroundTint="@color/primaryBlue"
+                app:cornerRadius="18dp"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnReviews"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:text="Customer Reviews"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_marginTop="14dp"
+                app:backgroundTint="@color/primaryGreen"
+                app:cornerRadius="18dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your Chargers"
+                android:textColor="@color/darkText"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginTop="28dp"
+                android:layout_marginBottom="18dp"/>
+
+            <TextView
+                android:id="@+id/tvEmptyChargers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No chargers added yet"
+                android:textColor="@color/lightText"
+                android:textSize="14sp"
+                android:visibility="gone"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"/>
+
+            <!-- FIXED RECYCLER -->
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerChargers"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:nestedScrollingEnabled="false"
+                android:overScrollMode="never"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- HEADER -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:orientation="vertical"
+            android:gravity="bottom"
+            android:padding="24dp"
+            android:background="@drawable/bg_home_header">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Availability"
+                android:textColor="@android:color/white"
+                android:textSize="32sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Manage charging schedule"
+                android:textColor="#E3F2FD"
+                android:textSize="15sp"
+                android:layout_marginTop="10dp"/>
+
+        </LinearLayout>
+
+        <!-- CONTENT -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-20dp"
+            android:orientation="vertical"
+            android:background="@drawable/bg_auth_card"
+            android:padding="20dp">
+
+            <!-- WORKING HOURS -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Working Hours"
+                android:textColor="@color/darkText"
+                android:textSize="22sp"
+                android:textStyle="bold"/>
+
+            <!-- OPENING -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Opening Time"
+                android:textColor="@color/lightText"
+                android:textSize="14sp"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:id="@+id/tvOpeningTime"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:gravity="center_vertical"
+                android:paddingHorizontal="18dp"
+                android:text="Select Opening Time"
+                android:textColor="@color/darkText"
+                android:textSize="16sp"
+                android:background="@drawable/bg_edittext_rounded"
+                android:layout_marginTop="8dp"/>
+
+            <!-- CLOSING -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Closing Time"
+                android:textColor="@color/lightText"
+                android:textSize="14sp"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:id="@+id/tvClosingTime"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:gravity="center_vertical"
+                android:paddingHorizontal="18dp"
+                android:text="Select Closing Time"
+                android:textColor="@color/darkText"
+                android:textSize="16sp"
+                android:background="@drawable/bg_edittext_rounded"
+                android:layout_marginTop="8dp"/>
+
+            <!-- WORKING DAYS -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Working Days"
+                android:textColor="@color/darkText"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:layout_marginTop="30dp"/>
+
+            <!-- DAYS -->
+
+            <!-- MAINTENANCE -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:id="@+id/checkMonday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Monday" />
+
+                <CheckBox
+                    android:id="@+id/checkTuesday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tuesday" />
+
+                <CheckBox
+                    android:id="@+id/checkWednesday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Wednesday" />
+
+                <CheckBox
+                    android:id="@+id/checkThursday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Thursday" />
+
+                <CheckBox
+                    android:id="@+id/checkFriday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Friday" />
+
+                <CheckBox
+                    android:id="@+id/checkSaturday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Saturday" />
+
+                <CheckBox
+                    android:id="@+id/checkSunday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sunday" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Maintenance Mode"
+                android:textColor="@color/darkText"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:layout_marginTop="30dp"/>
+
+            <com.google.android.material.switchmaterial.SwitchMaterial
+                android:id="@+id/switchMaintenance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Temporarily disable bookings"
+                android:layout_marginTop="14dp"/>
+
+            <!-- SAVE BUTTON -->
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnSaveAvailability"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:text="Save Availability"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_marginTop="36dp"
+                app:cornerRadius="18dp"
+                app:backgroundTint="@color/primaryGreen"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

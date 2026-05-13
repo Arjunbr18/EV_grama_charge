@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="18dp"
+    app:cardCornerRadius="28dp"
+    app:cardElevation="8dp"
+    app:strokeColor="#EEEEEE"
+    app:strokeWidth="1dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="22dp">
+
+        <!-- TOP SECTION -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!-- ICON -->
+
+            <LinearLayout
+                android:layout_width="68dp"
+                android:layout_height="68dp"
+                android:gravity="center"
+                android:background="@drawable/bg_icon_circle">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="⚡"
+                    android:textSize="32sp"/>
+
+            </LinearLayout>
+
+            <!-- DETAILS -->
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="16dp"
+                android:orientation="vertical">
+
+                <!-- CHARGER NAME -->
+
+                <TextView
+                    android:id="@+id/tvChargerName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fast DC Charger"
+                    android:textColor="@color/darkText"
+                    android:textSize="21sp"
+                    android:textStyle="bold"/>
+
+                <!-- DATE -->
+
+                <TextView
+                    android:id="@+id/tvDateTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="12 July • 5 PM"
+                    android:textColor="@color/lightText"
+                    android:textSize="14sp"
+                    android:layout_marginTop="8dp"/>
+
+                <!-- DURATION -->
+
+                <TextView
+                    android:id="@+id/tvDuration"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2 Hours"
+                    android:textColor="@color/lightText"
+                    android:textSize="14sp"
+                    android:layout_marginTop="5dp"/>
+
+            </LinearLayout>
+
+            <!-- STATUS -->
+
+            <TextView
+                android:id="@+id/tvStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PENDING"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:paddingHorizontal="16dp"
+                android:paddingVertical="8dp"
+                android:background="@drawable/bg_status_confirmed"/>
+
+        </LinearLayout>
+
+        <!-- DIVIDER -->
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginBottom="20dp"
+            android:background="#EEEEEE"/>
+
+        <!-- PAYMENT -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Charging Cost"
+                    android:textColor="@color/lightText"
+                    android:textSize="13sp"/>
+
+                <TextView
+                    android:id="@+id/tvAmount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="₹240"
+                    android:textColor="@color/primaryGreen"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="6dp"/>
+
+            </LinearLayout>
+
+            <!-- LIVE -->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <View
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:background="@drawable/bg_online_dot"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" Live"
+                    android:textColor="@color/lightText"
+                    android:textSize="13sp"
+                    android:layout_marginStart="6dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- QR BUTTON -->
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnShowQr"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="Show Booking QR"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_marginTop="22dp"
+            android:visibility="gone"
+            app:backgroundTint="@color/primaryBlue"
+            app:cornerRadius="16dp"/>
+
+        <!-- REVIEW BUTTON -->
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnReview"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="Rate Experience"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_marginTop="14dp"
+            android:visibility="gone"
+            app:backgroundTint="@color/primaryGreen"
+            app:cornerRadius="16dp"/>
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

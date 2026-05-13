@@ -1,0 +1,262 @@
+<resources>
+
+    <string name="app_name">EV-Grama Charge</string>
+
+    <!-- Auth -->
+    <string name="create_account">Create Account</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="user">USER</string>
+    <string name="host">HOST</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="login">Login</string>
+    <string name="no_account">Don\'t have an account?</string>
+    <string name="register_now">Register</string>
+
+    <!-- User Home -->
+    <string name="welcome">Welcome</string>
+    <string name="map_title">View Charging Points Map</string>
+    <string name="hosts_title">Nearby Charging Hosts</string>
+    <string name="bookings_title">Your Bookings</string>
+    <string name="calculator_title">Charging Calculator</string>
+
+    <!-- Booking -->
+    <string name="select_date">Select Date</string>
+    <string name="select_time">Select Time</string>
+    <string name="duration">Duration (hours)</string>
+    <string name="total_cost">Total Cost</string>
+    <string name="confirm_booking">Confirm Booking</string>
+
+    <!-- Host -->
+    <string name="host_welcome">Host Dashboard</string>
+    <string name="manage_bookings">Manage Bookings</string>
+    <string name="view_dashboard">View Earnings &amp; Stats</string>
+
+    <!-- Booking Adapter -->
+    <string name="booking_date">%1$s %2$s</string>
+    <string name="booking_cost">₹%1$.2f</string>
+    <string name="unknown_host">Unknown Host</string>
+
+    <!-- Status -->
+    <string name="status_pending">PENDING</string>
+    <string name="status_confirmed">CONFIRMED</string>
+    <string name="status_cancelled">CANCELLED</string>
+
+    <!-- Calculator -->
+    <string name="battery_size">Battery Size (kWh)</string>
+    <string name="charging_time">Charging Time (minutes)</string>
+    <string name="calculate">Calculate</string>
+    <string name="energy">Energy Charged</string>
+    <string name="distance">Estimated Distance</string>
+    <string name="energy_placeholder">Energy: -</string>
+    <string name="distance_placeholder">Distance: -</string>
+    <string name="energy_result">Energy: %1$.2f kWh</string>
+    <string name="distance_result">Distance: %1$.2f km</string>
+
+    <!-- App UI -->
+    <string name="app_title">EV-Grama Charge</string>
+    <string name="tagline">Power your EV anywhere ⚡</string>
+    <string name="icon_desc">icon</string>
+    <string name="map_subtitle">Find nearby EV charging points</string>
+
+    <!-- Map / Host Details -->
+    <string name="host_details_format">
+₹%1$.1f/hr
+Distance: %2$.1f km
+Rating: %3$.1f
+
+%4$s
+    </string>
+
+    <string name="rec_best">Best nearby option</string>
+    <string name="rec_budget">Budget friendly</string>
+    <string name="rec_fast">Fast charging available</string>
+
+    <string name="book_now">Book Now</string>
+    <string name="navigate">Navigate</string>
+
+    <!-- Filters -->
+    <string name="filter_title">Filter</string>
+    <string name="filter_all">All</string>
+    <string name="filter_available">Available Only</string>
+    <string name="filter_nearest">Nearest</string>
+    <string name="filter_cheapest">Cheapest</string>
+
+    <string name="snippet_price">₹%1$.1f/hr</string>
+    <string name="rec_ai">Recommended for you ⭐</string>
+    <string name="host_name">Host Name</string>
+    <string name="recommended">Recommended ⭐</string>
+    <string name="close">Close</string>
+
+    <string name="sample_price">₹20/hr</string>
+    <string name="sample_distance">1.2 km away</string>
+    <string name="sample_rating">⭐ 4.5 rating</string>
+    <string name="booking_datetime">%1$s %2$s</string>
+    <string name="rating_format">⭐ %1$.1f</string>
+    <string name="price_format">₹%1$.1f/hr</string>
+    <string name="distance_format">%1$.1f km away</string>
+    <string name="payment_amount">Pay ₹%1$.2f</string>
+    <string name="payment_title">Complete Payment</string>
+    <string name="amount_label">Total Amount</string>
+    <string name="payment_placeholder">₹0</string>
+    <string name="pay_now">Pay Now</string>
+    <string name="payment_success">Payment Successful</string>
+    <string name="host_label">Host</string>
+    <string name="date_label">Date</string>
+    <string name="time_label">Time</string>
+    <string name="done">Done</string>
+    <string name="best_option">⭐ Best Option</string>
+    <string name="processing_payment">Processing payment...</string>
+    <string name="payment_failed">Payment failed</string>
+    <string name="share_receipt">Share Receipt</string>
+    <string name="filter">Filter</string>
+    <string name="success_icon">✓</string>
+
+    <string name="payment_successful">
+    Payment Successful
+</string>
+
+    <string name="slot_confirmed">
+    Your EV charging slot is confirmed
+</string>
+
+    <string name="charging_receipt">
+    Charging Receipt
+</string>
+
+    <string name="charging_host">
+    Charging Host
+</string>
+
+    <string name="date">Date</string>
+
+    <string name="time">Time</string>
+
+    <string name="transaction_id">
+    Transaction ID
+</string>
+
+    <string name="amount_paid">
+    Amount Paid
+</string>
+
+
+    <string name="share">Share</string>
+
+    <string name="app_name_title">
+    EV-Grama Charge
+</string>
+
+    <string name="app_tagline">
+    Community Powered EV Charging
+</string>
+
+    <string name="host_panel">EV Host Panel</string>
+
+    <string name="manage_station">
+    Manage Your Charging Station
+</string>
+
+    <string name="track_revenue">
+    Track bookings, revenue and charger availability
+</string>
+
+    <string name="charging_icon">⚡</string>
+
+    <string name="charging_availability">
+    Charging Availability
+</string>
+
+    <string name="charger_control">
+    Control whether users can book your charger
+</string>
+
+    <string name="host_features">
+    Host Features
+</string>
+
+    <string name="dashboard_icon">📊</string>
+
+    <string name="dashboard_analytics">
+    Dashboard Analytics
+</string>
+
+    <string name="dashboard_desc">
+    Track revenue, charging sessions and performance
+</string>
+
+    <string name="booking_icon">📅</string>
+
+    <string name="manage_bookings_title">
+    Manage Bookings
+</string>
+
+    <string name="manage_booking_desc">
+    View and manage customer charging bookings
+</string>
+    <string name="find_chargers">
+    Find EV Chargers
+</string>
+
+    <string name="find_chargers_desc">
+    Browse nearby community charging stations
+</string>
+
+    <string name="available_hosts">
+    Available Charging Hosts
+</string>
+    <string name="dashboard_title">
+    Host Analytics
+</string>
+
+    <string name="dashboard_subtitle">
+    Monitor your charging station performance
+</string>
+
+    <string name="dashboard_overview">
+    Dashboard Overview
+</string>
+
+    <string name="total_bookings">
+    Total Bookings
+</string>
+
+    <string name="total_earnings">
+    Total Earnings
+</string>
+
+    <string name="today_bookings">
+    Today\'s Bookings
+</string>
+
+    <string name="available">Available</string>
+
+    <string name="charging_station_details">
+    Charging Station Details
+</string>
+
+    <string name="charging_price">
+    Charging Price
+</string>
+
+    <string name="charger_type_text">Type: %1$s</string>
+
+    <string name="connector_text">Connector: %1$s</string>
+
+    <string name="speed_text">Speed: %1$s</string>
+
+    <string name="price_per_hour_text">₹%1$s/hr</string>
+
+    <string name="customer_rating">
+    Customer Rating
+</string>
+
+    <string name="distance_away">
+    Distance Away
+</string>
+
+
+
+</resources>

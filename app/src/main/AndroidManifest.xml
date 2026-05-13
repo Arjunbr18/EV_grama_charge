@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- LOCATION -->
+
+    <uses-permission
+        android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <uses-permission
+        android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
+    <!-- CAMERA -->
+
+    <uses-permission
+        android:name="android.permission.CAMERA"/>
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false"/>
+
+    <!-- STORAGE -->
+
+    <uses-permission
+        android:name="android.permission.READ_MEDIA_IMAGES"/>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EV_grama_charge">
+
+        <!-- GOOGLE MAPS API -->
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="Your api key "/>
+
+        <!-- SPLASH -->
+
+        <activity
+            android:name=".ui.auth.SplashActivity"
+            android:exported="true">
+
+            <intent-filter>
+
+                <action
+                    android:name="android.intent.action.MAIN"/>
+
+                <category
+                    android:name="android.intent.category.LAUNCHER"/>
+
+            </intent-filter>
+
+        </activity>
+
+        <!-- AUTH -->
+
+        <activity
+            android:name=".ui.auth.LoginActivity"
+            android:exported="false"/>
+
+        <activity
+            android:name=".ui.auth.RegisterActivity"
+            android:exported="false"/>
+
+        <!-- HOST ONBOARDING -->
+
+        <activity
+            android:name=".onboarding.HostOnboardingActivity"
+            android:exported="false"/>
+
+        <!-- USER -->
+
+        <activity
+            android:name=".ui.user.UserHomeActivity"
+            android:exported="false"/>
+
+        <activity
+            android:name=".ui.user.HostListActivity"
+            android:exported="false"/>
+
+        <activity
+            android:name=".ui.user.HostDetailsActivity"
+            android:exported="false"/>
+
+        <activity
+            android:name=".ui.user.MapActivity"
+            android:exported="false"/>
+
+        <activity
+            android:name=".ui.user.CalculatorActivity"
+            android:exported="false"/>
+
+        <activity
+            android:name=".ui.user.UserProfileActivity"
+            android:exported="false"/>
+
+        <activity
+            android:name=".ui.user.EditUserProfileActivity"
+            android:exported="false"/>
+
+        <activity
+            android:name=".ui.user.AddReviewActivity"
+            android:exported="false"/>
+
+        <!-- MAP LOCATION PICKER -->
+
+        <activity
+            android:name=".ui.maps.LocationPickerActivity"
+            android:exported="false"/>
+
+        <!-- BOOKING -->
+
+        <activity
+            android:name=".ui.booking.BookingActivity"
+            android:exported="false"/>
+
+        <activity
+            android:name=".ui.booking.BookingHistoryActivity"
+            android:exported="false"/>
+
+        <activity
+            android:name=".ui.booking.PaymentActivity"
+            android:exported="false"/>
+
+        <activity
+            android:name=".ui.booking.ReceiptActivity"
+            android:exported="false"/>
+
+        <activity
+            android:name=".ui.booking.BookingQrActivity"
+            android:exported="false"/>
+
+        <!-- HOST -->
+
+        <activity
+            android:name=".ui.host.HostHomeActivity"
+            android:exported="false"/>
+
+        <activity
+            android:name=".ui.host.HostBookingsActivity"
+            android:exported="false"/>
+
+        <activity
+            android:name=".ui.host.HostDashboardActivity"
+            android:exported="false"/>
+
+        <activity
+            android:name=".ui.host.AddChargerActivity"
+            android:exported="false"/>
+
+        <activity
+            android:name=".ui.host.EditChargerActivity"
+            android:exported="false"/>
+
+        <activity
+            android:name=".ui.host.HostWalletActivity"
+            android:exported="false"/>
+
+        <activity
+            android:name=".ui.host.HostAvailabilityActivity"
+            android:exported="false"/>
+
+        <activity
+            android:name=".ui.host.HostReviewsActivity"
+            android:exported="false"/>
+
+        <activity
+            android:name=".ui.host.EditHostProfileActivity"
+            android:exported="false"/>
+
+        <activity
+            android:name=".ui.host.HostProfileActivity"
+            android:exported="false"/>
+
+        <activity
+            android:name=".ui.host.HostQrScannerActivity"
+            android:exported="false"/>
+
+        <!-- PAYMENT -->
+
+        <activity
+            android:name=".ui.payment.PaymentSuccessActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".ui.user.UserBookingsActivity" />
+
+    </application>
+
+</manifest>
