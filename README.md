@@ -154,68 +154,11 @@ git clone https://github.com/Arjunbr18/EV_grama_charge.git
 
 ---
 
+## App Overview
 
-# Screenshots
-
-<table align="center">
-  <tr>
-    <td align="center">
-      <img src="screenshots/splash.jpeg" width="220"/><br>
-      <b>Splash Screen</b>
-    </td>
-    <td align="center">
-      <img src="screenshots/login.jpeg" width="220"/><br>
-      <b>Login Screen</b>
-    </td>
-    <td align="center">
-      <img src="screenshots/register.jpeg" width="220"/><br>
-      <b>Register Screen</b>
-    </td>
-  </tr>
-
-  <tr>
-    <td align="center">
-      <img src="screenshots/home.jpeg" width="220"/><br>
-      <b>Home Screen</b>
-    </td>
-    <td align="center">
-      <img src="screenshots/map.jpeg" width="220"/><br>
-      <b>Charging Map</b>
-    </td>
-    <td align="center">
-      <img src="screenshots/recommendation.jpeg" width="220"/><br>
-      <b>Recommendation Screen</b>
-    </td>
-  </tr>
-
-  <tr>
-    <td align="center">
-      <img src="screenshots/host.jpeg" width="220"/><br>
-      <b>Charging Host Screen</b>
-    </td>
-    <td align="center">
-      <img src="screenshots/booking.jpeg" width="220"/><br>
-      <b>Booking Screen</b>
-    </td>
-    <td align="center">
-      <img src="screenshots/bookinghistory.jpeg" width="220"/><br>
-      <b>Booking History</b>
-    </td>
-  </tr>
-
-  <tr>
-    <td align="center">
-      <img src="screenshots/calculator.jpeg" width="220"/><br>
-      <b>EV Calculator</b>
-    </td>
-    <td align="center">
-      <img src="screenshots/hostscreen.jpeg" width="220"/><br>
-      <b>Host Dashboard</b>
-    </td>
-  </tr>
-</table>
-
+![EV GramaCharge](screenshots/ev_gramacharge_poster.jpeg)
 ---
+
 # Future Enhancements
 
 * Online payment integration
