@@ -154,9 +154,38 @@ git clone https://github.com/Arjunbr18/EV_grama_charge.git
 
 ---
 
+
 # Screenshots
 
+## Splash Screen
+![Splash Screen](screenshots/splash.png)
 
+## Login Screen
+![Login Screen](screenshots/login.png)
+
+## Register Screen
+![Register Screen](screenshots/register.png)
+
+## Home Screen
+![Home Screen](screenshots/home.png)
+
+## Charging Map
+![Charging Map](screenshots/map.png)
+
+## Charging Host Recommendation Screen
+![Recommendation Screen](screenshots/recommendation.png)
+
+## Charging Host Screen
+![Charging Host Screen](screenshots/host.png)
+
+## Booking Screen
+![Booking Screen](screenshots/booking.png)
+
+## EV Calculator
+![EV Calculator](screenshots/calculator.png)
+
+## Host Dashboard Screen
+![Host Dashboard Screen](screenshots/hostscreen.png)
 
 ---
 
