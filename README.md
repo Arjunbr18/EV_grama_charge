@@ -156,7 +156,7 @@ git clone https://github.com/Arjunbr18/EV_grama_charge.git
 
 ## App Overview
 
-![EV GramaCharge](screenshots/ev_gramacharge_poster.jpeg)
+![EV GramaCharge](screenshots/ev_gramacharge_poster.png)
 ---
 
 # Future Enhancements
