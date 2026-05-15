@@ -183,19 +183,6 @@ git clone https://github.com/Arjunbr18/EV_grama_charge.git
 
 ---
 
-# GitHub Evaluation Readiness
-
-This repository includes:
-
-* Complete source code
-* README documentation
-* Organized project structure
-* Firebase integration
-* Android build files
-* Feature-based implementation
-* Project-specific custom logic
-
----
 
 # Author
 
