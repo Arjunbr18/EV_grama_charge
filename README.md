@@ -157,41 +157,65 @@ git clone https://github.com/Arjunbr18/EV_grama_charge.git
 
 # Screenshots
 
-## Splash Screen
-![Splash Screen](screenshots/splash.jpeg)
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="screenshots/splash.jpeg" width="220"/><br>
+      <b>Splash Screen</b>
+    </td>
+    <td align="center">
+      <img src="screenshots/login.jpeg" width="220"/><br>
+      <b>Login Screen</b>
+    </td>
+    <td align="center">
+      <img src="screenshots/register.jpeg" width="220"/><br>
+      <b>Register Screen</b>
+    </td>
+  </tr>
 
-## Login Screen
-![Login Screen](screenshots/login.jpeg)
+  <tr>
+    <td align="center">
+      <img src="screenshots/home.jpeg" width="220"/><br>
+      <b>Home Screen</b>
+    </td>
+    <td align="center">
+      <img src="screenshots/map.jpeg" width="220"/><br>
+      <b>Charging Map</b>
+    </td>
+    <td align="center">
+      <img src="screenshots/recommendation.jpeg" width="220"/><br>
+      <b>Recommendation Screen</b>
+    </td>
+  </tr>
 
-## Register Screen
-![Register Screen](screenshots/register.jpeg)
+  <tr>
+    <td align="center">
+      <img src="screenshots/host.jpeg" width="220"/><br>
+      <b>Charging Host Screen</b>
+    </td>
+    <td align="center">
+      <img src="screenshots/booking.jpeg" width="220"/><br>
+      <b>Booking Screen</b>
+    </td>
+    <td align="center">
+      <img src="screenshots/bookinghistory.jpeg" width="220"/><br>
+      <b>Booking History</b>
+    </td>
+  </tr>
 
-## Home Screen
-![Home Screen](screenshots/home.jpeg)
-
-## Charging Map
-![Charging Map](screenshots/map.jpeg)
-
-## Charging Host Recommendation Screen
-![Recommendation Screen](screenshots/recommendation.jpeg)
-
-## Charging Host Screen
-![Charging Host Screen](screenshots/host.jpeg)
-
-## Booking Screen
-![Booking Screen](screenshots/booking.jpeg)
-
-## Booking History Screen
-![Booking History Screen](screenshots/bookinghistory.jpeg)
-
-## EV Calculator
-![EV Calculator](screenshots/calculator.jpeg)
-
-## Host Dashboard Screen
-![Host Dashboard Screen](screenshots/hostscreen.jpeg)
+  <tr>
+    <td align="center">
+      <img src="screenshots/calculator.jpeg" width="220"/><br>
+      <b>EV Calculator</b>
+    </td>
+    <td align="center">
+      <img src="screenshots/hostscreen.jpeg" width="220"/><br>
+      <b>Host Dashboard</b>
+    </td>
+  </tr>
+</table>
 
 ---
-
 # Future Enhancements
 
 * Online payment integration
